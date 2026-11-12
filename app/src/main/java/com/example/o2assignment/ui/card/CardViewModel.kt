@@ -66,6 +66,7 @@ class CardViewModel @Inject constructor() : ViewModel() {
                     val data = response.body<VersionData>()
                     if (data.android > 277028) {
                         _uiState.value = UiState.EMPTY
+                        _codeState.value += "\n${data.android}"
                         _cardState.value = CardState.ACTIVATED
                     } else {
                         _uiState.value = UiState.ERROR
