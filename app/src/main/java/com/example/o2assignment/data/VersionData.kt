@@ -1,4 +1,4 @@
-package com.example.o2assignment
+package com.example.o2assignment.data
 
 import kotlinx.serialization.Serializable
 

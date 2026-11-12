@@ -1,4 +1,4 @@
-package com.example.o2assignment
+package com.example.o2assignment.data
 
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO

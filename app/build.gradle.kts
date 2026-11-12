@@ -65,4 +65,5 @@ dependencies {
     implementation(libs.ktor.cio)
     implementation(libs.ktor.negotiation)
     implementation(libs.ktor.serialization)
+    implementation(libs.androidx.navigation.compose)
 }
